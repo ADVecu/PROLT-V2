@@ -7345,6 +7345,12 @@
 		(uuid "39e2a38a-d856-475f-a06f-f5f4a4f0ff02")
 	)
 	(junction
+		(at 260.35 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b29b7e9-deab-4169-b259-57bc7d9d3e51")
+	)
+	(junction
 		(at 229.87 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7898,7 +7904,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 154.94) (xy 260.35 158.75)
+			(xy 260.35 142.24) (xy 260.35 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8105,6 +8111,16 @@
 			(type default)
 		)
 		(uuid "2c67c1be-2911-4e11-a57f-75fb364de920")
+	)
+	(wire
+		(pts
+			(xy 267.97 142.24) (xy 267.97 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c74b1d1-8886-40b0-81b3-8af45111ab43")
 	)
 	(wire
 		(pts
@@ -10068,7 +10084,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 154.94) (xy 257.81 154.94)
+			(xy 260.35 142.24) (xy 252.73 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10475,6 +10491,16 @@
 			(type default)
 		)
 		(uuid "f4373541-2428-44b9-97cf-38a0151c3637")
+	)
+	(wire
+		(pts
+			(xy 260.35 142.24) (xy 267.97 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f457d5e9-9764-4833-82c3-fb2df4bddd7d")
 	)
 	(wire
 		(pts
@@ -11462,7 +11488,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 257.81 154.94 180)
+		(at 252.73 142.24 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -19893,6 +19919,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 267.97 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a99ce178-833b-43fe-8f2c-6f46fc91a4a4")
+		(property "Reference" "#PWR0242"
+			(at 267.97 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 155.956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79d48b37-a15c-4352-a030-723e00dd1c2a")
+		)
+		(instances
+			(project "PROLT_V2"
+				(path "/9b7c90cd-cead-456b-8a9d-1f1a57bee6ad/b560134d-add6-4854-b2b4-1e6b8a38da94"
+					(reference "#PWR0242")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 364.49 48.26 180)
 		(unit 1)
@@ -21678,6 +21781,106 @@
 			(project "PROLT_V2"
 				(path "/9b7c90cd-cead-456b-8a9d-1f1a57bee6ad/b560134d-add6-4854-b2b4-1e6b8a38da94"
 					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 267.97 148.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "effa7849-8855-4d54-9ff1-af21cf1a9034")
+		(property "Reference" "C226"
+			(at 265.176 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 271.526 145.796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 267.0048 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 267.97 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 267.97 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 267.97 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36a6c94d-1fa9-424d-a2f7-ee77975f4385")
+		)
+		(pin "2"
+			(uuid "829e3739-5b86-486a-a669-0b539c94118d")
+		)
+		(instances
+			(project "PROLT_V2"
+				(path "/9b7c90cd-cead-456b-8a9d-1f1a57bee6ad/b560134d-add6-4854-b2b4-1e6b8a38da94"
+					(reference "C226")
 					(unit 1)
 				)
 			)

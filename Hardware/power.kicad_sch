@@ -5901,7 +5901,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C369160"
+		(property "LCSC" "C976305"
 			(at 46.355 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7099,7 +7099,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "23.7k"
 			(at 147.193 64.643 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7143,7 +7143,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C327362"
 			(at 145.415 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7155,6 +7155,17 @@
 			)
 		)
 		(property "LCSC_ext" "0"
+			(at 145.415 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" ""
 			(at 145.415 63.5 0)
 			(hide yes)
 			(show_name no)
