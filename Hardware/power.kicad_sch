@@ -5092,7 +5092,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5294,7 +5294,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6804,7 +6804,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C92487"
 			(at 225.425 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10125,7 +10125,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C92487"
 			(at 213.36 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10946,7 +10946,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 253.365 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11426,7 +11426,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 127 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11587,7 +11587,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 156.591 70.358 0)
 			(show_name no)
 			(do_not_autoplace no)

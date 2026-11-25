@@ -12454,7 +12454,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 177.8 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -12889,7 +12889,7 @@
 		(dnp no)
 		(uuid "15cd918a-318c-41f1-ac70-750fa67524f8")
 		(property "Reference" "R207"
-			(at 267.97 33.02 0)
+			(at 265.43 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12943,7 +12943,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C94049"
+		(property "LCSC" "C163447"
 			(at 271.78 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14603,7 +14603,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 288.29 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -15787,6 +15787,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C19330"
+			(at 374.65 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 374.65 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a1fdf1f5-3908-41cb-8b25-c6604e95f90e")
 		)
@@ -15946,7 +15968,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C94049"
+		(property "LCSC" "C163447"
 			(at 274.32 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -16126,7 +16148,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 229.87 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -16720,7 +16742,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 189.23 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -17161,7 +17183,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32F429VGTx"
+		(property "Value" "STM32F407VGTx"
 			(at 121.5233 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17206,7 +17228,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C95448"
+		(property "LCSC" "C12345"
 			(at 116.84 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20016,7 +20038,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "100nF"
 			(at 367.792 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20026,7 +20048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 363.5248 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -20463,7 +20485,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 332.74 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -21594,7 +21616,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 359.41 113.03 0)
 			(hide yes)
 			(show_name no)

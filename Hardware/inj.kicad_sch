@@ -3299,7 +3299,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 58.42 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3509,7 +3509,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 137.16 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3795,7 +3795,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 137.16 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3897,7 +3897,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 68.58 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4155,7 +4155,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 68.58 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4488,7 +4488,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 76.2 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4939,7 +4939,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 76.2 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5989,7 +5989,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C60490"
 			(at 58.42 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6023,6 +6023,59 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(group "VNLD5160TR 2 Channel Output"
+		(uuid "0016f8d6-a82f-4b03-ae8a-a33a527868cf")
+		(lib_id "Outputs:VNLD5160TR 2 Channel Output")
+		(members "00625d11-1b6c-47f6-b664-446e448dcb29" "0a3b0ab7-1baf-480b-b9ce-75301f61aff5"
+			"162d3b7e-97b5-472b-8738-2a65375395d7" "183f717f-0ad1-4303-a054-051e874c49fc"
+			"1d4baad8-e792-45ce-91ab-2dcda2fc151f" "1fa6c547-cf6d-4ec7-a121-ca57deccdd20"
+			"28b558e3-13c5-41de-b06e-626660d33a21" "2ed7afd5-a4a7-48ab-b8ce-b37b1502284b"
+			"39396ab3-eb20-4310-96fd-2e1b02cf93c3" "51c5baf9-5e45-49e2-a92d-35be80719634"
+			"7871e117-0afa-4345-8eca-068974e9c902" "7939c761-c56a-4d6d-bef7-fe90a182e150"
+			"8a6fbf55-c85f-41b9-8b97-58d8ffaf947c" "8f899edd-9ed1-4a79-a1f5-0bf2f0aff458"
+			"91859d7b-cbe9-4f40-9ba8-9e94b2961eb4" "92eefa77-8e24-4497-bb7b-7b6a445fcb28"
+			"9d17eec4-0773-42bb-b271-6a11ef9c0e29" "a39ac97f-9be1-4093-a277-62e5e6e928ad"
+			"a69e7b81-0d2a-4fc2-b2c9-9fde22f43568" "adec6c5e-094e-4b25-a95f-dd6300bd451f"
+			"b0ef4026-f36d-41ca-81a7-27338319ccc3" "b7d580f4-3c1a-4e70-80ae-1389582da0bf"
+			"c42903cf-d193-45f4-a6dd-cac15eb07e1a" "cacb7845-bdb5-412e-ac9a-d4a662334a2f"
+			"d0ad67fe-3b39-4c0c-855f-102ab579c05a" "d37917f3-ccc5-4caa-afa2-7eee50f45902"
+			"d5bd2dfe-d29a-4fda-9560-578921a20da1" "e1fe61fb-02ae-4dde-97b2-6c9d175290b1"
+			"e5fef338-464c-48c4-9dea-e27be6333351" "f11307f5-b48b-45d6-be2c-5ed220ac9a4c"
+			"f1a6f99a-045a-4a37-8f90-58e45ab062be" "f429133a-9556-41b9-b579-7c13372315ce"
+			"f4e47a88-84a0-4f80-b8be-5c0f03882060"
+		)
+	)
+	(group "BTS3046SDR INJ Driver"
+		(uuid "7619fc3c-9691-4e4b-a239-c0e88f1f19c0")
+		(lib_id "Outputs:BTS3046SDR INJ Driver")
+		(members "077cefa5-2681-4d99-800d-150391e8b859" "13e18e87-9a0f-4b6f-8cc6-d1522adbb554"
+			"35208784-4b1d-44f8-910e-636de766ef35" "3659fda7-3068-4699-8403-11cc90c63322"
+			"386a9fa7-b88c-4e3a-bf51-8377a21b4f33" "51872508-f718-4461-9921-924024fa2556"
+			"536a85b0-f5f9-4cb9-9492-f139e26e5751" "a8526431-0b0c-4651-95e6-c7870cfb8d8d"
+			"b2e4ec41-5d79-4b54-91bc-36ba0c5c9e3e" "e45d395f-dfe4-4d77-a8b1-af02771df8ba"
+		)
+	)
+	(group "HighSide Output A034x"
+		(uuid "a988338a-d21a-4319-b64f-1215acf2087d")
+		(lib_id "Outputs:HighSide Output A034x")
+		(members "09dd2458-166e-47fc-a8c9-114b119145ef" "145b4523-5488-40ca-aa82-1caddb396cda"
+			"14de1995-fa14-40ca-b3f7-acc581e96e3d" "294a1edc-355b-4d91-b23f-fe538148661c"
+			"299859da-56c6-46cc-b61e-ae818b6c6ccf" "34d87785-a036-48dc-bbb8-914fecb51376"
+			"39f43329-8914-44f5-90b6-5b3a5ac081c4" "3ff92e07-d963-496c-8018-7a8693cb2c95"
+			"5e71f2dc-766e-4dae-9669-bb71e4443e30" "685831ad-64df-4ff8-b29d-bb606f816620"
+			"690c2871-8557-4258-be42-a127c2dfefcf" "6da39c55-f3ab-4aad-9b9a-b8daa0f7b516"
+			"77e892f5-4b08-4509-94b3-c98c04e55500" "827a41c2-3e16-47ed-9cb7-20e8a53682e9"
+			"86793e0a-428e-479b-8299-c68786de4185" "8b569e0c-553b-491e-b5f1-e9ccaa77c987"
+			"8c54eedc-e178-4634-83cf-31e0e0a85ef5" "936ae983-533c-4a70-b199-645c8a747cfa"
+			"a6af8b1e-b095-49b1-91dd-7f54a23127b9" "a83416c5-3a27-4e48-a4d4-471306e76982"
+			"ab999eda-3c68-4d33-bc0b-8e36d718a39e" "ba9131b6-9604-4d89-9701-5488929fc0d7"
+			"bb3cc6a9-554b-446f-be6f-4b44f0688f35" "c0d4a7a2-7f2c-4194-91cc-4646d6365a8e"
+			"c18b608f-8fd2-49c1-b774-193a097dad17" "c5c5d1b8-0a5f-4ceb-92fa-f898eb284572"
+			"cc669940-1261-4965-9c63-6811cc3fc891" "cd5c2ac3-34f3-4ec7-8ecc-4ed87d9c4c04"
+			"df39aa60-17c8-4604-8471-2f3eafceb9d0" "e33f5413-e6a9-4643-b80f-c825347f5ff4"
+			"f2f3f6f6-14a4-4c11-82b4-d6b6aca2be97" "f8309bf1-840a-4045-aa0f-d2429317f6c5"
 		)
 	)
 )

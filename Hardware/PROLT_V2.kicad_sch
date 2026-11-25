@@ -1258,10 +1258,6 @@
 		(uuid "09353d76-bb47-48ea-845c-06db4d33dc04")
 	)
 	(no_connect
-		(at 96.52 179.07)
-		(uuid "128609fe-30e0-439a-8b87-25d423a797b1")
-	)
-	(no_connect
 		(at 149.86 138.43)
 		(uuid "1e506f47-7960-493d-abdb-ff7d55c14c54")
 	)
@@ -1737,7 +1733,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 175.26) (xy 86.36 175.26)
+			(xy 76.2 175.26) (xy 91.44 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1777,7 +1773,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 97.79) (xy 160.02 97.79)
+			(xy 149.86 97.79) (xy 165.1 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +1853,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 171.45) (xy 86.36 171.45)
+			(xy 76.2 171.45) (xy 91.44 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2127,7 +2123,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 93.98) (xy 160.02 93.98)
+			(xy 149.86 93.98) (xy 165.1 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2537,6 +2533,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 179.07) (xy 96.52 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3dd4af6-d3ae-4c1a-8e7e-c4465b84c0d7")
+	)
+	(wire
+		(pts
 			(xy 245.11 96.52) (xy 256.54 96.52)
 		)
 		(stroke
@@ -2575,6 +2581,16 @@
 		)
 		(uuid "ff5c4590-9742-4a9d-bc8f-dd0abc4fb022")
 	)
+	(label "STEPPER_IN2"
+		(at 165.1 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03ae1857-d229-4915-b20a-5e560c841007")
+	)
 	(label "IGN2_OUT"
 		(at 245.11 73.66 0)
 		(effects
@@ -2584,16 +2600,6 @@
 			(justify left bottom)
 		)
 		(uuid "03dbc52c-5bf2-457d-b03c-e5866312f203")
-	)
-	(label "DIR"
-		(at 160.02 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "05619550-5020-4769-86bf-4a8424d1a767")
 	)
 	(label "VR+"
 		(at 27.94 128.27 0)
@@ -2714,6 +2720,16 @@
 			(justify right bottom)
 		)
 		(uuid "34e38700-3e73-4dbc-8d38-d5b7cabd62d6")
+	)
+	(label "STEPPER_IN4"
+		(at 91.44 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3cb586ec-cbef-44df-80cf-c0b2e4b4da17")
 	)
 	(label "IN_AUX2"
 		(at 26.67 71.12 0)
@@ -2845,6 +2861,16 @@
 		)
 		(uuid "64b0255e-9874-4d46-a7e6-b2a2822f70c8")
 	)
+	(label "STEPPER_IN3"
+		(at 165.1 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6567f51a-ca35-4761-b6c5-035f0ac12ee8")
+	)
 	(label "12V_KEY"
 		(at 25.4 27.94 0)
 		(effects
@@ -2935,6 +2961,16 @@
 		)
 		(uuid "7e5cb3da-973c-4a34-a837-8c58dbc98634")
 	)
+	(label "STEPPER_IN3"
+		(at 91.44 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "823eff83-3a1a-492a-9022-f500264f9ec6")
+	)
 	(label "IN_CLT"
 		(at 245.11 86.36 0)
 		(effects
@@ -2944,16 +2980,6 @@
 			(justify left bottom)
 		)
 		(uuid "846e0b7f-6374-42a8-827b-0dbc4258307b")
-	)
-	(label "STEP"
-		(at 86.36 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86247c08-ef0f-4d38-b9b4-23da0158f9c5")
 	)
 	(label "12V_KEY"
 		(at 24.13 161.29 0)
@@ -3085,8 +3111,8 @@
 		)
 		(uuid "b66818f4-c651-496f-af07-8d7eeeb45d24")
 	)
-	(label "DIR"
-		(at 86.36 171.45 180)
+	(label "STEPPER_IN2"
+		(at 91.44 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3094,16 +3120,6 @@
 			(justify right bottom)
 		)
 		(uuid "b787ac03-438f-4438-9c4f-1478aedc8337")
-	)
-	(label "STEP"
-		(at 160.02 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b8c03621-6b4d-4e41-bd69-769671d7076c")
 	)
 	(label "IN_IAT"
 		(at 27.94 82.55 0)
@@ -3324,6 +3340,16 @@
 			(justify left bottom)
 		)
 		(uuid "fc3e60cf-8185-4194-835a-e7ee2bf14a50")
+	)
+	(label "STEPPER_IN1"
+		(at 91.44 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe454ccb-312b-4fce-952a-9fda81016b11")
 	)
 	(symbol
 		(lib_id "power:GNDA")
@@ -3992,9 +4018,9 @@
 				(justify left top)
 			)
 		)
-		(pin "12V_RAW" input
+		(pin "12V_SUPPLY" input
 			(at 38.1 161.29 180)
-			(uuid "ba48fa8c-3a70-4fd2-a87c-319161d219ca")
+			(uuid "d30b8343-8f67-42c2-bb10-9e76652ad0ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,9 +4028,9 @@
 				(justify left)
 			)
 		)
-		(pin "AOUT_1" output
+		(pin "STEPPER_A+" output
 			(at 38.1 167.64 180)
-			(uuid "f598e909-3b83-465d-bc39-3f1c4a001d4a")
+			(uuid "fb771237-e464-4a10-b3c2-39f8f781f85f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,9 +4038,9 @@
 				(justify left)
 			)
 		)
-		(pin "AOUT_2" output
+		(pin "STEPPER_A-" output
 			(at 38.1 171.45 180)
-			(uuid "772fda65-4a50-44dd-9e73-48614e411d2c")
+			(uuid "3339f3f1-7fcb-41d8-9490-57042884e8d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,9 +4048,9 @@
 				(justify left)
 			)
 		)
-		(pin "BOUT_1" output
+		(pin "STEPPER_B+" output
 			(at 38.1 177.8 180)
-			(uuid "9662c473-f043-4cac-9084-7739f41fc583")
+			(uuid "59d4ba90-f01d-4cd6-bac8-2d1f30a687f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,9 +4058,9 @@
 				(justify left)
 			)
 		)
-		(pin "BOUT_2" output
+		(pin "STEPPER_B-" output
 			(at 38.1 181.61 180)
-			(uuid "4cc8a68a-9b1d-43b1-95d5-1b60b9d492f9")
+			(uuid "243a9df2-7584-41f3-bfd8-602d82cab563")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,19 +4068,9 @@
 				(justify left)
 			)
 		)
-		(pin "DIR" input
-			(at 76.2 171.45 0)
-			(uuid "d91d673e-d704-435b-b37f-b2bfac312e01")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ENABLE" input
+		(pin "STEPPER_IN1" input
 			(at 76.2 167.64 0)
-			(uuid "b10cc2b3-028b-449e-8683-40d92cb11a35")
+			(uuid "c6a0cda5-f7a0-4927-9040-e1108bd02ad3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,9 +4078,29 @@
 				(justify right)
 			)
 		)
-		(pin "STEP" input
+		(pin "STEPPER_IN2" input
+			(at 76.2 171.45 0)
+			(uuid "a58e1cbe-351c-439e-885d-18f9f937fcff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STEPPER_IN3" input
 			(at 76.2 175.26 0)
-			(uuid "9757d82c-fdef-42af-9d97-12f82a8a1842")
+			(uuid "6f9ab5a9-6d57-4f58-bd5a-9cb19c668f37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STEPPER_IN4" input
+			(at 76.2 179.07 0)
+			(uuid "76576f10-ac5a-4443-b94b-1a6b281349c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5445,7 @@
 			)
 		)
 		(pin "SPI2_MOSI_(PB15)" bidirectional
-			(at 96.52 163.83 180)
+			(at 96.52 179.07 180)
 			(uuid "fb731f77-7575-45f7-9e53-5b62cb9da457")
 			(effects
 				(font
@@ -5449,7 +5485,7 @@
 			)
 		)
 		(pin "SPI3_MOSI_(PC12)" bidirectional
-			(at 96.52 179.07 180)
+			(at 96.52 160.02 180)
 			(uuid "59f26dc1-fc71-4164-a714-1df210d1465e")
 			(effects
 				(font
